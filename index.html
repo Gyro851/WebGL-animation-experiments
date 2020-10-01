@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>
+      WebGL animation experiment
+    </title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link href="main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="threejs/3.min.js"></script>
+    <script src="threejs/3.controls.js"></script>
+    <script src="threejs/3.loader.js"></script>
+    <script src="main.js"></script>
+    <div class="instr">
+      Click/Touch and drag to adjust the camera.
+      <br/>
+      This is a simple experiment using Three.js and WebGL to animate 3d models.
+      The way this works is that there is an endless loop operating as a "tick".<br/>
+      Each "tick" it requests that we move to the next animation frame. The models can be thought of as gifs. A collection of images, each of which is a frame, and there is some time mechanism used to go from frame to frame. 
+      <br/><br/>
+      <div class="btn">Pause</div>
+    </div>
+    <canvas
+        class="first"
+        width="1000"
+        height="500"
+        style="width: 1000px; height: 500px"
+      ></canvas>
+  </body>
+</html>
