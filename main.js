@@ -1,14 +1,4 @@
-/**
- *
- * WebGL With Three.js - Lesson 11 - Animated Objects
- * https://www.script-tutorials.com/webgl-with-three-js-lesson-11/
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- *
- * Copyright 2015, Script Tutorials
- * https://www.script-tutorials.com/
- */
+
 
 var main = {
   scene: null,
